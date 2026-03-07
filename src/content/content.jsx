@@ -122,18 +122,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "DIVÓRCIO SEM COMPLICAÇÃO",
-      FirstPart: <span></span>,
+      miniTag: "ADVOGADA ESPECIALISTA EM DIVÓRCIO",
+      FirstPart: <span>Advogada para</span>,
       Destaque: (
-        <span className="relative italic font-light destaque">
-          DIVÓRCIO ONLINE
-        </span>
+        <span className="relative italic font-light destaque">cuidar</span>
       ),
-      SecondPart: <span>— RÁPIDO, SEGURO E SEM SAIR DE CASA</span>,
+      SecondPart: <span>do seu Divórcio</span>,
       subtitle: (
         <p>
-          Orientação jurídica especializada para resolver seu divórcio de forma
-          clara, organizada e sem desgaste emocional.
+          Orientação jurídica especializada para conduzir seu divórcio com
+          segurança, cuidando da divisão de bens, guarda e pensão.
         </p>
       ),
       heroDefaultImage: heroDefaultImg,
