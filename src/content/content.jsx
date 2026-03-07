@@ -126,32 +126,7 @@ const content = {
       FirstPart: <span></span>,
       Destaque: (
         <span className="relative italic font-light destaque">
-          DIVÓRCIO ONLINE{" "}
-          {/* <span>
-            <svg
-              className="absolute left-0 hidden w-full h-3 text-black hero-underline -bottom-2 desktop1:flex"
-              viewBox="0 0 100 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0 5 Q 50 10 100 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-              />
-            </svg>
-            <svg
-              className="absolute left-0 w-full h-3 text-black hero-underline -bottom-2 desktop1:hidden"
-              viewBox="0 0 100 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0 5 Q 50 10 100 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-            </svg>
-          </span> */}
+          DIVÓRCIO ONLINE
         </span>
       ),
       SecondPart: <span>— RÁPIDO, SEGURO E SEM SAIR DE CASA</span>,
@@ -161,13 +136,12 @@ const content = {
           clara, organizada e sem desgaste emocional.
         </p>
       ),
-      heroDefaultImage: heroDefaultImg, // img da pessoa mobile
+      heroDefaultImage: heroDefaultImg,
       heroDefaulMobiletImg: heroDefaultMobileImg,
-
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Falar Com Advogada Agora",
+      ctaButtonText: "Quero falar com a Advogada agora",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
@@ -196,36 +170,41 @@ const content = {
       },
     },
     important: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "ATENÇÃO",
+      title: "O que você precisa sobre divórcio online",
       cards: {
         card1: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: "Preciso mesmo de advogado para me divorciar?",
+          paragraph:
+            "Sim. A lei exige a participação de um advogado no processo de divórcio. O advogado garante que tudo seja feito corretamente, cuidando da divisão de bens, guarda dos filhos, visitas e pensão alimentícia, evitando problemas e conflitos no futuro.",
         },
         card2: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: "Quanto tempo demora para sair o divórcio?",
+          paragraph:
+            "Depende do tipo de divórcio e da situação do casal. Quando há acordo entre as partes, o processo costuma ser mais rápido. Em casos com conflitos ou necessidade de decisão judicial, pode levar mais tempo. Cada caso precisa ser analisado individualmente.",
         },
         card3: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title:
+            "E se meu ex não quiser se divorciar ou não quiser fazer acordo?",
+          paragraph:
+            "Mesmo sem acordo é possível entrar com o pedido de divórcio. Nesse caso, o processo segue pela via judicial e o juiz analisará questões como divisão de bens, guarda dos filhos, visitas e pensão para garantir uma solução justa.",
         },
         card4: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: "Como um advogado pode me ajudar no processo de divórcio?",
+          paragraph:
+            "O advogado orienta cada etapa do processo, analisa seus direitos e conduz o caso para que o divórcio seja resolvido com segurança. Isso evita decisões precipitadas, acordos injustos e problemas legais no futuro.",
         },
       },
-      fraseObs: "A_Definir",
-      ctaButtonText: "A_Definir",
+      fraseObs: "Entre em contato conosco e daremos todo o suporte necessário",
+      ctaButtonText: "Falar conosco agora pelo WhatsApp",
     },
     features: {
-      miniTag: "Seu divórcio não precisa ser complicado",
-      FirstPart: <span>Sabemos que o momento do divórcio </span>,
-      Destaque: <span className="italic font-light"> é delicado</span>,
-      SecondPart: <span> e, muitas vezes, doloroso.</span>,
+      miniTag: "Divórcio com orientação e segurança",
+      FirstPart: <span>Conte com apoio jurídico </span>,
+      Destaque: <span className="italic font-light"> no divórcio</span>,
+      SecondPart: <span></span>,
       subtitle:
-        "Por isso, oferecemos um atendimento humanizado, rápido e totalmente online, para que você resolva tudo com tranquilidade e sem burocracia. Você não precisa enfrentar filas, deslocamentos ou desgaste emocional. Nós cuidamos de tudo para você.",
+        "Sabemos que o divórcio é um momento delicado. Por isso oferecemos orientação jurídica clara e atendimento humanizado para conduzir todo o processo com segurança e tranquilidade.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
       titleMessageFeature: "100%",
@@ -269,7 +248,8 @@ const content = {
             "Indicado quando não há acordo, com acompanhamento jurídico para proteger seus direitos.",
           description: (
             <div>
-              A_Definir <br />
+              A_Definir
+              <br />
               <br />
               A_Definir
             </div>
@@ -327,7 +307,6 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
       },
-
       moreFeatures: {
         card1: {
           ico: "A_Definir",
@@ -548,7 +527,7 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Você mais perto de receber o que é seu, sem sair de casa
+            Você mais perto de receber o que é seu
           </div>
         </div>
       ),

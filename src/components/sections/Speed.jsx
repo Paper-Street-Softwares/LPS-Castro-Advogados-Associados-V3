@@ -1,7 +1,7 @@
 import React from "react";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import { Clock, Gavel, ShieldCheck } from "lucide-react";
+import { Check, Clock, Gavel, ShieldCheck } from "lucide-react";
 import SectionHeaderNovo from "../sectionElements/SectionHeaderNovo";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
@@ -33,7 +33,7 @@ function Speed({ colorMode }) {
       <SectionWrapper>
         <section className="">
           <SectionHeaderNovo
-            miniTitle="Rapidez e Praticidade"
+            miniTitle="Rapidez e praticidade"
             title="Dependendo do caso, o divórcio pode ser resolvido:"
             colorMode={colorMode}
           />
@@ -45,13 +45,16 @@ function Speed({ colorMode }) {
               <div className="grid md:grid-cols-3 gap-8">
                 {[
                   {
-                    text: "Em poucos dias, conforme o tipo de divórcio",
-                    icon: Clock,
+                    text: " Em poucos dias, conforme o tipo de divórcio",
+                    icon: Check,
                   },
-                  { text: "Sem audiência, na maioria dos casos", icon: Gavel },
+                  {
+                    text: "Sem audiência, na maioria dos casos",
+                    icon: Check,
+                  },
                   {
                     text: "Sem necessidade de comparecimento presencial",
-                    icon: ShieldCheck,
+                    icon: Check,
                   },
                 ].map((item, idx) => (
                   <MotionDivDownToUp>
