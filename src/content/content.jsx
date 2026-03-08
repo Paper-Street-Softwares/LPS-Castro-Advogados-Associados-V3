@@ -128,10 +128,7 @@ const content = {
         <span className="relative italic font-light destaque">Divórcio</span>
       ),
       SecondPart: (
-        <span>
-          {" "}
-          sem preocupações com o auxílio de uma Advogada Especialista
-        </span>
+        <span> de forma segura com o auxílio de uma Advogada Especialista</span>
       ),
       subtitle: (
         <p>
