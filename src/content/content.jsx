@@ -90,7 +90,7 @@ export const infos = {
   tiktokProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim do Google e preciso de ajuda com Divórcio. Pode me atender?",
+    "Olá! Vim do Google e preciso de ajuda com Divórcio. Alguma Advogada pode me atender?",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
@@ -122,16 +122,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA ESPECIALISTA EM DIVÓRCIO",
-      FirstPart: <span>Advogada para</span>,
+      miniTag: "ADVOGADAS PARA DIVÓRCIO",
+      FirstPart: <span>Resolva seu</span>,
       Destaque: (
-        <span className="relative italic font-light destaque">cuidar</span>
+        <span className="relative italic font-light destaque">Divórcio</span>
       ),
-      SecondPart: <span>do seu Divórcio</span>,
+      SecondPart: <span> sem preocupações com uma Advogada Especialista</span>,
       subtitle: (
         <p>
-          Orientação jurídica especializada para conduzir seu divórcio com
-          segurança, cuidando da divisão de bens, guarda e pensão.
+          Pare de lidar sozinho(a) com as dúvidas e tenha uma Advogada com
+          experiência e capacitação cuidando do seu divórcio com segurança.
         </p>
       ),
       heroDefaultImage: heroDefaultImg,
@@ -144,8 +144,8 @@ const content = {
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: "Atendimento 100% online e sigiloso",
-        textTwo: "Com orientação de advocacia especializada",
+        text: "Foco em fazer o melhor acordo para você não sair perdendo.",
+        textTwo: "Processo conduzido para ser rápido e evitar conflitos.",
       },
       secondaryCta: "Contato",
       images: {
