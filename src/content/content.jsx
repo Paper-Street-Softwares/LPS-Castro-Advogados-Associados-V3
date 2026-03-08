@@ -127,11 +127,16 @@ const content = {
       Destaque: (
         <span className="relative italic font-light destaque">Divórcio</span>
       ),
-      SecondPart: <span> sem preocupações com uma Advogada Especialista</span>,
+      SecondPart: (
+        <span>
+          {" "}
+          sem preocupações com o auxílio de uma Advogada Especialista
+        </span>
+      ),
       subtitle: (
         <p>
           Pare de lidar sozinho(a) com as dúvidas e tenha uma Advogada com
-          experiência e capacitação cuidando do seu divórcio com segurança.
+          experiência e capacitação cuidando de todo o processo para você.
         </p>
       ),
       heroDefaultImage: heroDefaultImg,
