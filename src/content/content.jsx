@@ -172,6 +172,12 @@ const content = {
       title: "O que você precisa sobre divórcio online",
       cards: {
         card1: {
+          title:
+            "E se meu ex não quiser se divorciar ou não quiser fazer acordo?",
+          paragraph:
+            "Mesmo sem acordo é possível entrar com o pedido de divórcio. Nesse caso, o processo segue pela via judicial e o juiz analisará questões como divisão de bens, guarda dos filhos, visitas e pensão para garantir uma solução justa.",
+        },
+        card3: {
           title: "Preciso mesmo de advogado para me divorciar?",
           paragraph:
             "Sim. A lei exige a participação de um advogado no processo de divórcio. O advogado garante que tudo seja feito corretamente, cuidando da divisão de bens, guarda dos filhos, visitas e pensão alimentícia, evitando problemas e conflitos no futuro.",
@@ -181,12 +187,7 @@ const content = {
           paragraph:
             "Depende do tipo de divórcio e da situação do casal. Quando há acordo entre as partes, o processo costuma ser mais rápido. Em casos com conflitos ou necessidade de decisão judicial, pode levar mais tempo. Cada caso precisa ser analisado individualmente.",
         },
-        card3: {
-          title:
-            "E se meu ex não quiser se divorciar ou não quiser fazer acordo?",
-          paragraph:
-            "Mesmo sem acordo é possível entrar com o pedido de divórcio. Nesse caso, o processo segue pela via judicial e o juiz analisará questões como divisão de bens, guarda dos filhos, visitas e pensão para garantir uma solução justa.",
-        },
+
         card4: {
           title: "Como um advogado pode me ajudar no processo de divórcio?",
           paragraph:
