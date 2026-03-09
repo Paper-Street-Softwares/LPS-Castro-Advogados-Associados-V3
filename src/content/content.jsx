@@ -141,7 +141,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Quero falar com a Advogada agora",
+      ctaButtonText: "Falar com Advogada agora",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
